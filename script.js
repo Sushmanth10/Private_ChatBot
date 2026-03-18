@@ -3,7 +3,7 @@ let container = document.querySelector(".container")
 let btn = document.querySelector("#btn")
 let chatContainer = document.querySelector(".chat-container")
 let userMessage = null;
-let Api_Url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=AIzaSyDRlyEEKMjgEDK11iw8TDzumX6-t_5yaBM'
+let Api_Url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=AIzaSyAQ16PCNbpiiVLUdgyGpDddbQWVb5Wug0c'
 
 function createChatBox(html, className, userName) {
     let div = document.createElement("div")
